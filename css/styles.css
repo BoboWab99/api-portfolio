@@ -4,6 +4,7 @@
 :root {
   --color-primary: #166a63;
   --color-primary-dark: #092a28;
+  --color-green: rgb(0, 128, 0);
   --color-bg-light: #f2f2f2;
   --header-height: 80px;
 }
@@ -281,9 +282,10 @@ a.button:hover {
 
 .work_piece .hover_txt .btn {
   margin-top: 0.7em;
-  padding: 0.4em 1.2em;
-  border: 1px solid white;
-  background: orangered;
+  padding: 0.6em 2em;
+  border: 1px solid #ccc;
+  background: var(--color-green);
+  border-radius: 3em;
 }
 
 .work_piece .hover_txt h2 {
@@ -306,7 +308,7 @@ a.button:hover {
 
   width: 40px;
   height: 3px;
-  background: orangered;
+  background: var(--color-green);
   border-radius: 10px;
   content: '';
 }
